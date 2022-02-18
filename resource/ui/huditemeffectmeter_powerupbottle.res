@@ -5,10 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r86"	[$WIN32]
-		"ypos"			"r102"	[$WIN32]
-		"xpos_minmode"	"r70"	[$WIN32]
-		"ypos_minmode"	"r130"	[$WIN32]
+		"xpos"			"c133"	[$WIN32]
+		"ypos"			"c100"	[$WIN32]
 		"wide"			"100"
 		"tall"			"60"
 		"MeterFG"		"White"
@@ -24,9 +22,9 @@
 		"zpos"			"0"
 		"wide"			"90"
 		"tall"			"56"
-		"visible"		"1"
+		"visible"		"0"
 		"visible_minmode"	"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
 		"teambg_2"		"../hud/misc_ammo_area_red"
@@ -73,7 +71,8 @@
 		"centerwrap"			"1"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TFFontSmall"
+		"font"					"FlorencesansBold8"
+		"fgcolor"				"White_PorkHUD"
 	}
 
 	"ItemEffectMeter"
@@ -114,7 +113,29 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"HudFontMedium"
-		"font_minmode"			"HudFontMediumSmall"
+		"font"					"FlorencesansBlack24"
+		"fgcolor"				"White_PorkHUD"
+	}
+	"ItemEffectMeterCount2"
+	{
+		"ControlName"			"CExLabel"
+		"fieldName"				"ItemEffectMeterCount2"
+		"xpos"					"25"
+		"xpos_minmode"			"40"
+		"ypos"					"12"
+		"ypos_minmode"			"18"
+		"zpos"					"2"
+		"wide"					"40"
+		"tall"					"20"	
+		"pinCorner"				"2"
+		"visible"				"1"
+		"enabled"				"1"
+		"tabPosition"			"0"
+		"labelText"				"%progresscount%"
+		"textAlignment"			"north"
+		"dulltext"				"0"
+		"brighttext"			"0"
+		"font"					"FlorencesansBlack24"
+		"fgcolor"				"Black_PorkHUD"
 	}
 }

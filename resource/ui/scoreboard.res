@@ -206,7 +206,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"ScoreboardTeamScoreNew"
+		"font"			"FlorencesansBlack36"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"175"
@@ -218,6 +218,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"White_PorkHUD"
 		
 		if_mvm
 		{
@@ -228,8 +229,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScoreDropshadow"
-		"font"			"ScoreboardTeamScoreNew"
-		"fgcolor"		"Black"
+		"font"			"FlorencesansBlack36"
+		"fgcolor"		"Black_PorkHUD"
 		"labelText"		"%blueteamscore%"
 		"textAlignment"		"east"
 		"xpos"			"176"
@@ -251,7 +252,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"ScoreboardTeamCountNew"
+		"font"			"FlorencesansRegular14"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"			"80"
@@ -262,6 +263,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"White_PorkHUD"
 		
 		if_mvm
 		{
@@ -294,7 +296,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"ScoreboardTeamScoreNew"
+		"font"			"FlorencesansBlack36"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"368"
@@ -306,6 +308,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"White_PorkHUD"
 		
 		if_mvm
 		{
@@ -316,8 +319,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScoreDropshadow"
-		"font"			"ScoreboardTeamScoreNew"
-		"fgcolor"		"Black"
+		"font"			"FlorencesansBlack36"
+		"fgcolor"		"Black_PorkHUD"
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"west"
 		"xpos"			"369"
@@ -339,7 +342,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"ScoreboardTeamCountNew"
+		"font"			"FlorencesansRegular14"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"east"
 		"xpos"			"401"
@@ -350,6 +353,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor"		"White_PorkHUD"
 		
 		if_mvm
 		{
@@ -360,7 +364,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FlorencesansBold8"
 		"labelText"		"%server%"
 		"textAlignment"		"west"
 		"xpos"			"11"
@@ -424,7 +428,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftLabel"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FlorencesansBold8"
+		"fgcolor"		"White_PorkHUD"
 		"labelText"		"#Scoreboard_TimeLeftLabel"
 		"textAlignment"		"center"
 		"xpos"			"284"
@@ -446,7 +451,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeftValue"
-		"font"			"ScoreboardMediumSmall"
+		"font"			"FlorencesansBold14"
 		"labelText"		"%servertime%"
 		"textAlignment"		"center"
 		"xpos"			"284"
@@ -458,7 +463,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"BrightYellow"
+		"fgcolor"		"White_PorkHUD"
 		"centerwrap"	"1"
 		
 		if_mvm
@@ -470,7 +475,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerTimeLeft"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FlorencesansBold14"
+		"fgcolor"		"White_PorkHUD"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
 		"xpos"			"305"
@@ -505,7 +511,7 @@
 		"linespacing"	"18"
 		"linegap"		"5"
 		"fgcolor"		"blue"
-		//"show_columns"	"1"
+		//"show_columns"	"0"
 		
 		if_mvm
 		{
@@ -529,7 +535,7 @@
 		"linespacing"	"18"
 		"linegap"		"5"
 		"fgcolor"		"red"
-		//"show_columns"	"1"
+		//"show_columns"	"0"
 
  		if_mvm
  		{
@@ -562,7 +568,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"Spectators"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FlorencesansBold8"
+		"fgcolor"		"White_PorkHUD"
 		"labelText"		"%spectators%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -584,7 +591,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SpectatorsInQueue"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FlorencesansBold8"
+		"fgcolor"		"White_PorkHUD"
 		"labelText"		"%waitingtoplay%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -809,7 +817,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"PlayerNameLabel"
-		"font"			"ScoreboardMedium"
+		"font"			"FlorencesansBold22"
 		"labelText"		"%playername%"
 		"textAlignment"		"west"
 		"xpos"			"115"
@@ -832,7 +840,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ServerLabelNew"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FlorencesansBold10"
 		"labelText"		"%server%"
 		"textAlignment"		"east"
 		"xpos"			"315"
@@ -842,8 +850,9 @@
 		"tall"			"12"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
+		"visible"		"1"	
 		"enabled"		"1"
+		"fgcolor"		"White_PorkHUD"
 		
 		if_mvm
 		{
@@ -854,7 +863,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"ScoreboardVerySmall"
+		"font"			"FlorencesansBold10"
 		"labelText"		"%mapname%"
 		"textAlignment"	"east"
  		"xpos"			"315"
@@ -866,7 +875,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"236 227 203 255"
+		"fgcolor"		"White_PorkHUD"
 
 		if_mvm
 		{
@@ -941,7 +950,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DuelingLabel"
-			"font"			"ScoreboardSmall"
+			"font"			"FlorencesansBold8"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_Dueling"
 			"textAlignment"		"center"
 			"xpos"			"250"
@@ -1152,7 +1162,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_KillsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1169,7 +1180,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_DeathsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1186,7 +1198,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_AssistsLabel"
 			"textAlignment"		"east"
 			"xpos"			"80"
@@ -1203,11 +1216,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DestructionLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_DestructionLabel"
 			"textAlignment"		"east"
-			"xpos"			"80"
-			"ypos"			"30"
+			"xpos"			"205"
+			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1220,7 +1234,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Kills"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1237,7 +1252,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Deaths"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fg_color"		"White_PorkHUD"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1254,7 +1270,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"gametype"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%gametype%"
 			"textAlignment"		"east"
 			"xpos"			"435"
@@ -1272,7 +1289,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Assists"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
 			"xpos"			"180"
@@ -1289,11 +1307,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Destruction"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%destruction%"
 			"textAlignment"		"west"
-			"xpos"			"180"
-			"ypos"			"30"
+			"xpos"			"305"
+			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1306,7 +1325,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"CapturesLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"east"
 			"xpos"			"200"
@@ -1323,7 +1343,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DefensesLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_DefensesLabel"
 			"textAlignment"		"east"
 			"xpos"			"200"
@@ -1340,10 +1361,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DominationLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_DominationLabel"
 			"textAlignment"		"east"
-			"xpos"			"200"
+			"xpos"			"321"
 			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"100"
@@ -1357,10 +1379,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RevengeLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_RevengeLabel"
 			"textAlignment"		"east"
-			"xpos"			"200"
+			"xpos"			"321"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"100"
@@ -1374,7 +1397,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Captures"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
 			"xpos"			"305"
@@ -1391,7 +1415,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Defenses"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%defenses%"
 			"textAlignment"		"west"
 			"xpos"			"305"
@@ -1408,10 +1433,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Domination"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%dominations%"
 			"textAlignment"		"west"
-			"xpos"			"305"
+			"xpos"			"425"
 			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1425,10 +1451,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Revenge"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%Revenge%"
 			"textAlignment"		"west"
-			"xpos"			"305"
+			"xpos"			"425"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1442,10 +1469,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HealingLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"
+			"xpos"			"205"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1459,11 +1487,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"InvulnLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_InvulnLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"
-			"ypos"			"0"
+			"xpos"			"445"
+			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1476,11 +1505,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TeleportsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_TeleportsLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"
-			"ypos"			"20"
+			"xpos"			"445"
+			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1493,10 +1523,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"HeadshotsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_HeadshotsLabel"
 			"textAlignment"		"east"
-			"xpos"			"326"
+			"xpos"			"445"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1510,10 +1541,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Healing"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
-			"xpos"			"425"
+			"xpos"			"305"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1527,11 +1559,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Invuln"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%invulns%"
 			"textAlignment"		"west"
-			"xpos"			"425"
-			"ypos"			"0"
+			"xpos"			"545"
+			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1544,11 +1577,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Teleports"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%teleports%"
 			"textAlignment"		"west"
-			"xpos"			"425"
-			"ypos"			"20"
+			"xpos"			"545"
+			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1561,10 +1595,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Headshots"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%headshots%"
 			"textAlignment"		"west"
-			"xpos"			"425"
+			"xpos"			"545"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1578,7 +1613,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BackstabsLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_BackstabsLabel"
 			"textAlignment"		"east"
 			"xpos"			"445"
@@ -1595,7 +1631,8 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Backstabs"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%backstabs%"
 			"textAlignment"		"west"
 			"xpos"			"545"
@@ -1612,10 +1649,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BonusLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_ScoreBoard_BonusLabel"
 			"textAlignment"		"east"
-			"xpos"			"445"
+			"xpos"			"326"
 			"ypos"			"10"
 			"zpos"			"3"
 			"zpos"			"3"
@@ -1630,10 +1668,11 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"Bonus"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%bonus%"
 			"textAlignment"		"west"
-			"xpos"			"545"
+			"xpos"			"425"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1647,11 +1686,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"SupportLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_Scoreboard_Support"
 			"textAlignment"	"east"
-			"xpos"			"445"
-			"ypos"			"20"
+			"xpos"			"326"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"95"
 			"tall"			"20"
@@ -1664,11 +1704,12 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Support"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%support%"
 			"textAlignment"	"west"
-			"xpos"			"545"
-			"ypos"			"20"
+			"xpos"			"425"
+			"ypos"			"0"
 			"zpos"			"3"
 			"wide"			"35"
 			"tall"			"20"
@@ -1681,10 +1722,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DamageLabel"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"east"
-			"xpos"			"445"
+			"xpos"			"80"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"95"
@@ -1698,10 +1740,11 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"Damage"
-			"font"			"ScoreboardVerySmall"
+			"font"			"FlorencesansBold10"
+			"fgcolor"		"White_PorkHUD"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"
-			"xpos"			"545"
+			"xpos"			"180"
 			"ypos"			"30"
 			"zpos"			"3"
 			"wide"			"35"

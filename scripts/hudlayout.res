@@ -194,10 +194,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
+		"xpos"					"c-140"
+		"ypos"					"c100"
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -850,7 +848,7 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
+		"xpos"					"c-100"
 		"ypos"					"215"
 		"wide"					"300"
 		"tall"					"300"
