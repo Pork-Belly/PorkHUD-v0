@@ -61,7 +61,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"FLorencesansBold8"
-		"fgcolor_override"		"White_PorkHUD"
+		"fg_color"				"Gray_PorkHUD"
 	}
 
 	"ItemEffectMeter"

@@ -39,7 +39,7 @@
 		"fieldName"				"ItemEffectMeterLabel"
 		"xpos"					"11"
 		"ypos"					"-4"
-		"zpos"					"2"
+		"zpos"					"3"
 		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
@@ -56,7 +56,7 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"font"					"FlorencesansBold8"
-		"fg_coloroverride"		"White_PorkHUD"
+		"fgcoloroverride"		"Gray_PorkHUD"
 	}
 
 	"ItemEffectMeter"
