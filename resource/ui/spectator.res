@@ -118,12 +118,9 @@
 		"fieldName"		"MapLabel"
 		"font"			"FlorencesansBold14"
 		"font_hidef"		"HudFontMedium"
-		"xpos"			"-122"	[$WIN32]
-		"ypos"			"40"	[$WIN32]
-		"xpos"			"r285"	[$X360]
-		"ypos"			"32"	[$X360]
+		"xpos"			"15"	[$WIN32]
+		"ypos"			"400"	[$WIN32]
 		"wide"			"240"	[$WIN32]
-		"wide"			"220"	[$X360]
 		"tall"			"20"
 		"tall_hidef"		"30"
 		"autoResize"		"0"
@@ -132,7 +129,7 @@
 		"visible_minmode"		"0"
 		"enabled"		"1"
 		"labelText"		"map: cp_bridge"
-		"textAlignment"		"east"
+		"textAlignment"		"west"
 	}
 	"ClassOrTeamLabel"
 	{

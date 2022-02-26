@@ -620,7 +620,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"KillStreakMaxCountLabel"
 		"font"			"FlorencesansBold8"
-		"xpos"			"6"
+		"xpos"			"45"
 		"ypos"			"164"
 		"zpos"			"3"
 		"wide"			"140"

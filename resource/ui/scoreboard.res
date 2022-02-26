@@ -449,7 +449,7 @@
 	}
 	"ServerTimeLeftValue"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"Label"
 		"fieldName"		"ServerTimeLeftValue"
 		"font"			"FlorencesansBold14"
 		"labelText"		"%servertime%"
@@ -463,7 +463,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"White_PorkHUD"
+		"fgcolor_override"		"White_PorkHUD"
 		"centerwrap"	"1"
 		
 		if_mvm
@@ -473,10 +473,10 @@
 	}
 	"ServerTimeLeft"
 	{
-		"ControlName"		"CExLabel"
+		"ControlName"		"Label"
 		"fieldName"		"ServerTimeLeft"
 		"font"			"FlorencesansBold14"
-		"fgcolor"		"White_PorkHUD"
+		"fgcolor_override"		"White_PorkHUD"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"		"east"
 		"xpos"			"305"
