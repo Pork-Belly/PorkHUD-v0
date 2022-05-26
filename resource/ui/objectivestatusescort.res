@@ -46,10 +46,8 @@
 		
 		"if_single_with_hills"
 		{
-			"ypos"			"116"
-			"ypos_minmode"	"120"
-			"tall"			"18"
-			"tall_minmode"	"10"
+			"ypos"			"120"
+			"tall"			"10"
 			"image"			"../hud/cart_track_neutral_opaque"
 		}		
 	}	
@@ -191,8 +189,7 @@
 		{	
 			"ControlName"	"CExLabel"
 			"fieldName"		"RecedeTime"
-			"font"			"FlorencesansBlack8"		
-			"font_minmode"		"ItemFontAttribSmall"		
+			"font"			"FlorencesansBlack8"			
 			"xpos"		"21"			
 			"ypos"		"53"			
 			"zpos"			"2"
@@ -398,7 +395,6 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"CapNumPlayers"
 			"font"			"FlorencesansBlack8"
-			"font_minmode"		"ItemFontAttribSmall"
 			"xpos"		"24"
 			"ypos"		"53"
 			"zpos"			"4"
@@ -517,7 +513,6 @@
 				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
 				"font"				"DefaultSmall"
-				"font_minmode"			"DefaultVerySmall"
 				"xpos"				"0"
 				"ypos"			"3"
 				"zpos"				"23"
