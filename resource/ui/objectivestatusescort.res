@@ -512,7 +512,7 @@
 			{	
 				"ControlName"		"Label"
 				"fieldName"			"ProgressText"
-				"font"				"DefaultSmall"
+				"font"				"FlorencesansBlack8"
 				"xpos"				"0"
 				"ypos"			"3"
 				"zpos"				"23"

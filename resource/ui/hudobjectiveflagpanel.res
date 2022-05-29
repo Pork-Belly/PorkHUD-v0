@@ -321,7 +321,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"FlorencesansBold14"
-		"fgcolor"		"Black_PorkHUD"
+		"fgcolor"		"White_PorkHUD"
 		
 		"if_hybrid"
 		{
@@ -354,7 +354,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"FlorencesansBold14"
-		"fgcolor"		"White_PorkHUD"
+		"fgcolor"		"Black_PorkHUD"
 		
 		"if_hybrid"
 		{

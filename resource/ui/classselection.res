@@ -1197,7 +1197,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"center"
-		"font"			"FlorencesansBold12"
+		"font"			"FlorencesansBold10"
 		"fgcolor"		"White_PorkHUD"
 	}	
 	
@@ -1217,7 +1217,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"center"
-		"font"			"FlorencesansBold12"
+		"font"			"FlorencesansBold10"
 		"fgcolor"		"White_PorkHUD"
 	}		
 	
@@ -1237,7 +1237,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"center"
-		"font"			"FlorencesansBold12"
+		"font"			"FlorencesansBold10"
 		"fgcolor"		"White_PorkHUD"
 	}			
 	
@@ -1257,7 +1257,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"center"
-		"font"			"FlorencesansBold12"
+		"font"			"FlorencesansBold10"
 		"fgcolor"		"White_PorkHUD"
 	}				
 	
@@ -1277,7 +1277,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"center"
-		"font"			"FlorencesansBold12"
+		"font"			"FlorencesansBold10"
 		"fgcolor"		"White_PorkHUD"
 	}					
 	
@@ -1297,7 +1297,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"center"
-		"font"			"FlorencesansBold12"
+		"font"			"FlorencesansBold10"
 		"fgcolor"		"White_PorkHUD"
 	}						
 	
@@ -1317,7 +1317,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"center"
-		"font"			"FlorencesansBold12"
+		"font"			"FlorencesansBold10"
 		"fgcolor"		"White_PorkHUD"
 	}							
 	
@@ -1337,7 +1337,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"center"
-		"font"			"FlorencesansBold12"
+		"font"			"FlorencesansBold10"
 		"fgcolor"		"White_PorkHUD"
 	}						
 	
@@ -1357,7 +1357,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"center"
-		"font"			"FlorencesansBold12"
+		"font"			"FlorencesansBold10"
 		"fgcolor"		"White_PorkHUD"
 	}								
 	

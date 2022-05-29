@@ -243,8 +243,8 @@
 		// "ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
 		"xpos"			"c-250"
-		"ypos"			"-80"
-		"zpos"			"-99"
+		"ypos"			"-9980"
+		"zpos"			"-9999"
 		"wide"			"600"
 		"tall"			"600"
 		"visible"		"1"
@@ -583,8 +583,8 @@
 		"tall"			"32"
 		"autoResize"	"0"
 		"pinCorner"		"3"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"tabPosition"	"0"
 		
 		"navUp"			"Notifications_Panel"
@@ -1377,7 +1377,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldname"		"FriendsContainer"
 		"xpos"			"c-290"
-		"ypos"			"260"
+		"ypos"			"160"
 		"zpos"			"5"
 		"wide"			"260"
 		"tall"			"150"
@@ -1389,7 +1389,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"HudFontSmallBold"
+			"font"			"FlorenceSansBlack20"
 			"labelText"		"#TF_Competitive_Friends"
 			"textAlignment"	"west"
 			"xpos"			"12"
@@ -1401,7 +1401,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"textinsetx"	"0"
-			"fgcolor_override"	"235 227 203 255"
+			"fgcolor_override"	"White_PorkHUD"
 		}
 
 		"InnerShadow"
@@ -1502,12 +1502,12 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"EventPromo"
-		"xpos"			"c-290"
-		"ypos"			"160"
+		"xpos"			"9290"
+		"ypos"			"9160"
 		"zpos"			"-50"
 		"wide"			"270"
 		"tall"			"96"
-		"visible"		"1"
+		"visible"		"0"
 
 		"Background"
 		{
@@ -2309,7 +2309,8 @@
 		"tabPosition"	"0"
 		"textinsetx"	"25"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
+		"font"			"FlorenceSansBlack16"
+		"defaultFgColor_override" "White_PorkHUD"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2322,7 +2323,7 @@
 			
 		"paintbackground"	"1"
 				
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"White_PorkHUD"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -2370,7 +2371,8 @@
 		"tabPosition"	"0"
 		"textinsetx"	"25"
 		"use_proportional_insets" "1"
-		"font"			"HudFontSmallBold"
+		"font"			"FlorenceSansBlack16"
+		"defaultFgColor_override" "White_PorkHUD"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -2384,7 +2386,7 @@
 			
 		"paintbackground"	"1"
 				
-		"image_drawcolor"	"235 226 202 255"
+		"image_drawcolor"	"White_PorkHUD"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
