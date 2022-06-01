@@ -95,8 +95,8 @@
 			"wide"					"p1"
 			"font"					"FlorencesansBlack12"
 			"fgcolor"				"White_PorkHUD"
-			"font_hidef"			"FlorencesansBlack12estBold"
-			"font_lodef"			"FlorencesansBlack12estBold"
+			"font_hidef"			"FlorencesansBlack12"
+			"font_lodef"			"FlorencesansBlack12"
 		}
 	}			
 	"WaitingForPlayersBG"
@@ -161,8 +161,8 @@
 			"wide"					"p1"
 			"font"					"FlorencesansBlack12"
 			"fgcolor"				"White_PorkHUD"
-			"font_hidef"			"FlorencesansBlack12estBold"
-			"font_lodef"			"FlorencesansBlack12estBold"
+			"font_hidef"			"FlorencesansBlack12"
+			"font_lodef"			"FlorencesansBlack12"
 		}
 	}			
 	"OvertimeBG"
@@ -227,8 +227,8 @@
 			"wide"					"p1"
 			"font"					"FlorencesansBlack12"
 			"fgcolor"				"White_PorkHUD"
-			"font_hidef"			"FlorencesansBlack12estBold"
-			"font_lodef"			"FlorencesansBlack12estBold"
+			"font_hidef"			"FlorencesansBlack12"
+			"font_lodef"			"FlorencesansBlack12"
 		}
 	}			
 	"SuddenDeathBG"
@@ -294,8 +294,8 @@
 			"wide"					"p1"
 			"font"					"FlorencesansBlack12"
 			"fgcolor"				"White_PorkHUD"
-			"font_hidef"			"FlorencesansBlack12estBold"
-			"font_lodef"			"FlorencesansBlack12estBold"
+			"font_hidef"			"FlorencesansBlack12"
+			"font_lodef"			"FlorencesansBlack12"
 		}
 	}	
 	"SetupBG"
@@ -346,10 +346,11 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
-		"font_minmode"	"ClockSubTextSuddenDeath"
-		"font_hidef"	"FlorencesansBlack12"
-		"font_lodef"	"FlorencesansBlack12"
+		"font"			"FlorencesansBold10"
+		"font_minmode"	"FlorencesansBold10"
+		"font_hidef"	"FlorencesansBold10"
+		"font_lodef"	"FlorencesansBold10"
+		"fgcolor"				"White_PorkHUD"
 
 		if_match
 		{
@@ -358,9 +359,10 @@
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"FlorencesansBlack12estBold"
-			"font_hidef"			"FlorencesansBlack12estBold"
-			"font_lodef"			"FlorencesansBlack12estBold"
+			"font"					"FlorencesansBold10"
+			"font_hidef"			"FlorencesansBold10"
+			"font_lodef"			"FlorencesansBold10"
+			"fgcolor"				"White_PorkHUD"
 		}
 	}	
 	"ServerTimeLimitLabelBG"

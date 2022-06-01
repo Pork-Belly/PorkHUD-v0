@@ -750,11 +750,11 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"CancelButton"
-		"xpos"			"c-295"
-		"ypos"			"r38"
-		"zpos"			"6"
-		"wide"			"100"
-		"tall"			"25"
+		"xpos"				"30"
+		"ypos"				"r50"
+		"zpos"				"2"
+		"wide"				"200"
+		"tall"				"40"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -763,19 +763,32 @@
 		"labelText"		"#TF_ClassMenu_Cancel"
 		"textAlignment"	"center"
 		"Command"		"vguicancel"
-		"font"			"FlorencesansBlack18"
-		"fgcolor_override" "White_PorkHUD"
+		"font"			"FlorencesansBold20"
+		"paintbackground"	"1"
+
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"HudBlack"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"HudBlack"
+
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"White_PorkHUD"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"White_PorkHUD"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 	
 	"EditLoadoutButton" [$WIN32] 
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"EditLoadoutButton"
-		"xpos"			"r180"
-		"ypos"			"r38"
-		"zpos"			"6"
-		"wide"			"150"
-		"tall"			"25"
+		"xpos"			"r225"
+		"ypos"			"r50"
+		"zpos"			"2"
+		"wide"			"200"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"2"
 		"visible"		"1"
@@ -784,7 +797,21 @@
 		"labelText"		"#EditLoadout"
 		"textAlignment"	"center"
 		"Command"		"openloadout"
-		"font"			"FlorencesansBlack18"
+		"font"			"FlorencesansBold20"
+		"paintbackground"	"1"
+
+		"defaultBgColor_override" 	"TransparentBlack"
+		"armedBgColor_override"		"HudBlack"
+		"depressedBgColor_override" "TransparentBlack"
+		"selectedBgColor_override" 	"HudBlack"
+
+		"defaultFgColor_override" 	"TanDark"
+		"armedFgColor_override"		"White_PorkHUD"
+		"depressedFgColor_override" "TanDark"
+		"selectedFgColor_override" 	"White_PorkHUD"
+		
+		"sound_depressed"			"UI/buttonclick.wav"
+		"sound_released"			"UI/buttonclickrelease.wav"
 	}
 
 	"ResetButton" [$WIN32] 
@@ -833,32 +860,17 @@
 	
 	"MenuBG"
 	{
-		"ControlName"	"CModelPanel"
-		"fieldName"		"MenuBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"0"		
-		"wide"			"f0"
-		"tall"			"480"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"fov"			"16"
-		
-		"model"
-		{
-			"modelname"	"models/vgui/UI_class01.mdl"
-			"skin"		"0"
-			"angles_x" "0"
-			"angles_y" "180"
-			"angles_z" "0"
-			"origin_x" "365"
-			"origin_x_lodef" "415"
-			"origin_x_hidef" "380"
-			"origin_y" "0"
-			"origin_z" "-40"
-		}
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MenuBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"wide"				"f0"
+		"tall"				"f0"
+		"autoResize"		"0"
+		"pinCorner"			"0"
+		"visible"			"1"
+		"enabled"			"1"
+		"fillcolor"			"TransparentBlack"
 	}	
 
 	"Hint"
@@ -912,51 +924,7 @@
 		"PaintBackgroundType"	"0"
 	}		
 	
-	"Footer" [$X360]
-	{
-		"ControlName"		"CTFFooter"
-		"fieldName"			"Footer"
-		"zpos"				"6"
-		"tall"				"80"
-		"button_separator"	"10"
-		"button_separator_lodef"	"5"
-		"buttongap"			"50"
-		"buttongap_hidef"		"35"
-		"buttongap_lodef"			"18"
-		"textadjust"		"3"
-		"textadjust_lodef"		"0"
-		"buttonoffsety"		"20"
-		"buttonoffsety_hidef"		"0"
-		"buttonoffsety_lodef"		"18"
-		"center"			"0"
-		"button_pin_right_lodef"	"55"
-		"fonttext"			"MatchmakingDialogMenuLarge"
-		"fonttext_lodef"			"MatchmakingDialogMenuSmall"
-		"fgcolor"			"HudOffWhite" 	
-		
-		"button"
-		{
-			"name"		"cancel"
-			"text"		"#GameUI_Cancel"
-			"icon"		"#GameUI_Icons_B_BUTTON"	
-		}
-		
-		"button"
-		{
-			"name"		"nextprev"
-			"text"		"#TF_NextPrev"
-			"icon"		"#GameUI_Icons_DPAD"	
-		}				
-		
-		"button"
-		{
-			"name"		"select"
-			"text"		"#GameUI_Select"
-			"icon"		"#GameUI_Icons_A_BUTTON"	
-		}
-	}
-	
-	"localPlayerImage" [$WIN32]
+	"localPlayerImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"localPlayerImage"

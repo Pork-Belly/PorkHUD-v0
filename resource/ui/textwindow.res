@@ -46,7 +46,7 @@
 		"textAlignment"		"center"
 		"font"				"FlorenceSansBold24"
 		"fgcolor"			"White_PorkHUD"
-		"allcaps"			"1"
+		"allcaps"			"0"
 		"proportionaltoparent"    "1"
 	}
 
@@ -62,10 +62,10 @@
 		"ControlName"		"CExRichText"
 		"fieldName"			"TFTextMessage"
 		"font"				"FlorenceSansRegular14"
-		"xpos"				"30"
+		"xpos"				"130"
 		"ypos"				"60"
 		"zpos"				"1"
-		"wide"				"798"
+		"wide"				"598"
 		"tall"				"360"
 		"autoResize"		"3"
 		"pinCorner"			"0"
@@ -108,7 +108,7 @@
 		"pinCorner"			"2"
 		"visible"			"1"
 		"enabled"			"1"
-		"labelText"			"Continue(&E)"
+		"labelText"			"CONTINUE"
 		"textAlignment"		"center"
 		"dulltext"			"0"
 		"brighttext"		"0"
@@ -123,12 +123,24 @@
 		"selectedBgColor_override" 	"HudBlack"
 
 		"defaultFgColor_override" 	"TanDark"
-		"armedFgColor_override"		"TanLight"
+		"armedFgColor_override"		"White_PorkHUD"
 		"depressedFgColor_override" "TanDark"
-		"selectedFgColor_override" 	"TanLight"
+		"selectedFgColor_override" 	"White_PorkHUD"
 		
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
+	}
+	
+	"okbutton"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"okbutton"
+		"wide"			"0"
+		"tall"			"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"&E"
+		"command"		"okay"
 	}
 
 	"MenuBG"
@@ -161,15 +173,4 @@
 		"xpos"				"9999"
 	}
 
-	"teambutton0SC"
-	{
-		"ControlName"		"CExButton"
-		"fieldName"			"teambutton0SC"
-		"wide"				"0"
-		"tall"				"0"
-		"visible"			"1"
-		"enabled"			"1"
-		"labelText"			"&E"
-		"command"			"okay"
-	}
 }

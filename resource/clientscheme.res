@@ -22,6 +22,13 @@ Scheme
 		"Black_PorkHUD"		"0 0 0 255"
 		"White_PorkHUD"		"255 255 255 255"
 		"Gray_PorkHUD"		"105 105 105 255"
+		"RedBby"			"255 119 121 255"
+		"BlueBby"			"137 207 240 255"
+		"RedTrans"			"255 119 121 90"
+		"BlueTrans"			"137 207 240 90"
+		"GrayTrans"			"105 105 105 90"
+		"WhiteTrans"		"255 255 255 50"
+		"BlackTrans"		"0 0 0 210"
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
