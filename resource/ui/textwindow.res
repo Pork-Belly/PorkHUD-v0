@@ -73,6 +73,8 @@
 		"enabled"			"1"
 		"paintborder"		"0"
 		"textAlignment"		"west"
+		"allcaps"			"0"
+		"proportionaltoparent"    "1"
 		"fgcolor"			"White_PorkHUD"
 		"paintbackground"	"0"
 	}

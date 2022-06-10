@@ -854,8 +854,8 @@
 		"enabled"		"1"
 		"labelText"		"#TF_SelectAClass"
 		"textAlignment"	"west"
-		"font"			"MenuMainTitle"
-		"fgcolor"		"HudOffWhite"
+		"font"			"FlorenceSansBlack20"
+		"fgcolor"		"White_PorkHUD"
 	}
 	
 	"MenuBG"

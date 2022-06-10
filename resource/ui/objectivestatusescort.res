@@ -69,6 +69,7 @@
 		{
 			"ypos"			"114"
 			"zpos"			"6"
+			"wide"			"128"
 			"tall"			"12"
 			"visible"		"1"
 		}
@@ -206,7 +207,7 @@
 			
 			"if_multiple_trains"
 			{
-				"font"			"ItemFontAttribSmall"
+				"font"			"FlorencesansBlack8"
 				"xpos"			"21"
 				"wide"			"11"
 				"tall"			"10"
@@ -411,7 +412,7 @@
 			
 			"if_multiple_trains"
 			{
-				"font"			"ItemFontAttribSmall"
+				"font"			"FlorencesansBlack8"
 				"xpos"			"25"
 				"wide"			"30"
 				"tall"			"10"
@@ -529,7 +530,7 @@
 				
 				"if_multiple_trains"
 				{
-					"font"			"DefaultVerySmall"
+					"font"			"FlorencesansBlack8"
 					"xpos"			"0"
 					"ypos"			"3"			
 					"wide"			"35"			

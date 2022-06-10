@@ -24,7 +24,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"progress_xpos"		"79"
-		"progress_wide"		"270"
+		"progress_wide"		"200"
 		
 		"if_blue_is_top"
 		{
@@ -44,7 +44,7 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"progress_xpos"		"79"
-		"progress_wide"		"270"
+		"progress_wide"		"200"
 		
 		"if_red_is_top"
 		{
